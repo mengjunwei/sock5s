@@ -40,7 +40,7 @@ async fn main() -> Result<()> {
                 .short('l')
                 .long("listen")
                 .value_name("LISTEN ADDR")
-                .default_value("127.0.0.1:1080")
+                .default_value("0.0.0.0:13638")
                 .help("Specify the listen addr"),
         )
         .get_matches();
